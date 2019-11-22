@@ -1,0 +1,212 @@
+*{ margin:0; padding:0; } html,body{ height:100%; } body{ font-family:  Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; }
+.swiper-container {
+	width: 100%; height: 100%;
+}  
+.swiper-slide{
+	width:100%; height:100%;
+}
+img{
+	display:block;
+}
+.swiper-pagination-bullet {
+	width: 6px; height: 6px; background: #fff; opacity: .4;
+}
+.swiper-pagination-bullet-active {
+	opacity: 1;
+}
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+.ani{
+	position:absolute;
+}
+.txt{
+	position:absolute;
+}
+#array{
+	position:absolute;z-index:999;-webkit-animation: start 1.5s infinite ease-in-out;
+}
+.ys{ 
+	font-size: 0.3rem; display: block; width: 100%; font-weight: bold; color: #939393; overflow: hidden;
+}
+
+.boxone{
+    width: 100%; height: 100%;
+}
+.one_top{
+    width: 100%;
+}
+.icon_left{
+    display: block; width: 2rem; float: left; padding: 5% 5% 0;
+}
+.icon_right{
+    display: block; width: 2.3rem; float: right; padding: 5% 5% 0;
+}
+.title{
+	text-align: center; font-size: 0.4rem; color: #333; letter-spacing: 0.05rem; padding-top: 0.1rem;
+}
+.one_bton{
+	width: 3rem; float: right; padding: 0 6%; overflow: hidden;
+}
+.one_bton p{
+	float: right; width: 100%; font-size: 0.4rem; color: #333; text-align: center; letter-spacing: 0.1rem;
+}
+.one_bton span{
+	display: block; float: right; width: 100%; color: #333; font-size: 0.36rem; text-align: center;
+}
+.one_text{
+	padding: 0 13%;
+}
+.one_text h2{
+	font-size: 0.3rem; color: #333; text-align: left; padding-top: 0.5rem;
+}
+.one_text h3{
+	padding-top: 0.8rem;
+}
+.one_text h3,.one_text h4{
+	font-size: 0.22rem; color: #333; text-indent: 0.4rem; line-height: 0.4rem; letter-spacing: 0.01rem;
+}
+.one_text div{
+	padding: 0.05rem 0 0.05rem 12%;
+}
+.one_text div p{
+	font-size: 0.24rem; line-height: 0.4rem; color: #555; 
+}
+.one_for{
+	float: right; padding-top: 0.5rem;
+}
+.one_for p{
+	width: 100%; text-align: right; color: #333; font-size: 0.22rem;
+}
+
+.priority{
+	width: 100%; height: 2.3rem; position: relative; z-index: 9999;
+}
+.three_text,.four_text{
+	width: 86%; height: 70vh; margin: 0 auto; margin-top: 0.5rem; overflow-y: scroll; 
+}
+.text_two{
+	width: 100%; padding-bottom: 0.2rem; overflow: hidden; cursor: pointer;
+}
+.text_two div{
+	overflow: hidden; padding-bottom: 0.1rem;
+}
+.text_two div span{
+    display: block; float: left; width: 5%; padding-right: 0.1rem; margin-top: 0.05rem;
+}
+.text_two div span img{
+	display: block; width: 100%;
+}
+.text_two div p{
+	float: left; width: 93%; font-size: 0.26rem; color: #333; word-wrap: break-word;
+}
+.text_two p.s_p1{
+    width: 93%; font-size: 0.26rem; color: #666; word-wrap: break-word; margin-left: 0.4rem;
+}
+
+
+.text_s{
+	padding-bottom: 0.2rem; overflow: hidden;
+}
+.text_s_div{
+	overflow: hidden;
+}
+.text_s_div span{
+	float: left; width: 5%; display: block; padding-right: 0.1rem; margin-top: 0.05rem;
+}
+.text_s_div span img{
+	display: block; width: 100%;
+}
+.text_s_div .p1{
+	float: left; width: 76%; font-size: 0.26rem; color: #666;  line-height: 0.4rem; word-wrap:break-word; padding-bottom: 0.1rem;
+}
+.text_s_div .pcolor{
+	color: #333;
+}
+.text_s_div .p2{
+	float: left; width: 16%; font-size: 0.26rem; color: #FFB532; text-align: center; line-height: 0.4rem;
+}
+.bot_bor{
+	width: 80%; height: 1px; margin-top: 0.1rem;
+	background: -webkit-linear-gradient(left,#74b1ff,#ebfdff);
+    background: -o-linear-gradient(right,#74b1ff,#ebfdff);
+    background: -moz-linear-gradient(right,#74b1ff,#ebfdff);
+    background: linear-gradient(to right,#74b1ff,#ebfdff);
+}
+.bet_bor{
+	height: 1px; margin-top: 0.2rem;
+	background: -webkit-linear-gradient(left,#74b1ff,#ebfdff);
+    background: -o-linear-gradient(right,#74b1ff,#ebfdff);
+    background: -moz-linear-gradient(right,#74b1ff,#ebfdff);
+    background: linear-gradient(to right,#74b1ff,#ebfdff);
+}
+.ps{
+	margin-left: 0.4rem;
+}
+
+.audio-bg {
+    position: absolute; width: 0.5rem; height: 0.5rem; background-size: 100% auto; border-radius: 50%; right: 0.2rem; bottom: 0.2rem; z-index: 200;
+}
+#audio_btn {
+    position: relative; width: 100%; height: 100%; display: block; background: url(../images/play.png) no-repeat; background-size: 100% auto;
+}
+
+/* 音乐图标动画 */
+.audio-bg>.on {
+	-webkit-animation: musicOn 1.2s linear infinite;
+	-moz-animation: musicOn 1.2s linear infinite;
+	animation: musicOn 1.2s linear infinite;
+}
+@-webkit-keyframes musicOn{
+	0%,50%,100%{-webkit-transform:rotate(0deg);}
+	25%{-webkit-transform:rotate(36deg);}
+	75%{-webkit-transform:rotate(-36deg);}
+}
+@-moz-keyframes musicOn{
+	0%,50%,100%{-moz-transform:rotate(0deg);}
+	25%{-moz-transform:rotate(36deg);}
+	75%{-moz-transform:rotate(-36deg);}
+}
+@keyframes musicOn{
+	0%,50%,100%{transform:rotate(0deg);}
+	25%{transform:rotate(40deg);}
+	75%{transform:rotate(-40deg);}
+}
+
+.vote{
+	position: relative;
+}
+.vote_layer{
+	width: 80%; height: 70vh; margin: 0 auto; margin-top: 1rem; overflow-y: scroll;
+}
+.closebtn{
+	display: block; width: 0.6rem; position: absolute; right: 4%; top: 13%; cursor: pointer;
+}
+.text_two p.s_lar{
+	color: #333;
+}
+.btn_vote{
+	display: block; width: 30%; text-align: center; background: #296e9c; font-size: 0.3rem; color: #fff; margin: 0.5rem auto 0; padding: 0.1rem; border: none; border-radius: 0.2rem;
+}
+
+.layer_top{
+	width: 100%; padding-top: 3%; overflow: hidden;
+}
+
+
+.content_text{
+	padding-top: 1rem;
+	bottom: 15% !important;
+}
